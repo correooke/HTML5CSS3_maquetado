@@ -338,6 +338,28 @@ En esta clase vamos a utilizar el selector de "hermanos generales" para hacer un
 
 Vamos a seleccionar todas las estrellas que esten después de la estrella que estoy seleccionando con el cursor. Entonces mi estrella de referencia va a ser la estrella que sobre la que se este haciendo "hover", y voy a decir que afecte a todos los elementos con la clase ".star" que sean hermanos de esa estrella con hover, y que además estén después de esa estrella.
 
+#30
+
+HTML5 simplificó y estandarizó muchos conceptos que hasta HTML4 se utilizaban, en ese sentido nosotros ya vinimos aplicando las nuevas características.
+Pero entre las cosas nuevas que HTML5 nos brinda, HTML5 trajo el concepto de "tags" semánticos, es decir, con un significado en particular, más allá de su representación gráfica. Hasta ahora utilizamos para todos nuestros contenedores el tag div que ya existía en las versiones previas de html. La gran diferencia con html5 es que permite identificar mediante diferentes tags el significado de cada contenedor, de manera que se pueda hacer una interpretación automática de las partes de la página y esto es especialmente utilizado por los buscadores como Google para mejorar las búsquedas. 
+
+Vamos a ver los tags:
+main, header, section, footer.
+
+A pesar de introducir estos nuevos tags eso no significa que los anteriores deban dejar de utilizarse, por ejemplo, el "div" sigue siendo de los más utilizados.
+
+main define el contenido principal del documento.
+
+header define la cabecera del documento o de una seccion.
+
+section, simplemente, define una sección del documento.
+
+y footer el pie del documento o de una sección.
+
+Como verán las definiciones no son muy estrictas y nos dan la flexibilidad de poder utilizarlos adaptandolos a nuestras necesidades.
+
+
+
 
 
 
